@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #8b9ba8;
+    padding: 10px 20px 0px;
+}
+.header {
+   background-color: #8b9ba8;
+    min-height: 150px;
+}
+.content {
+    background-color: #8b9ba8;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #8b9ba8;
+    min-height: 150px;
+}
+
+.pConteudo{
+    color: white;
+    font-family: Verdana;
+}
+.pConteudoHorario{
+    color: #def0ff;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+.pConteudoContato{
+    color: #def0ff;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+
+.fontecontato{
+    color: white;
+    font-size: 15px;
+    top: 81%;
+    position: absolute;
+    
+}
+.fontecontatoSobre{
+    color: white;
+    font-size: 15px;
+    top: 139%;
+    position: absolute;
+    
+}
+.fontecontatoHorario{
+    color: white;
+    font-size: 15px;
+    top: 81%;
+    position: absolute;
+    
+}
+.fontecontatoContato{
+    color: white;
+    font-size: 15px;
+    top: 96%;
+    position: absolute;
+
+}
+
+
+.subtitulocontato{
+    color: #AFC1D0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.548);
+    font-family: Verdana;
+}
+
+
+.testar{
+    color: white;   
+}
+
+.listatexto{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Verdana;
+   }
+
+   .sobreConteudo{
+    color: white;
+    font-family: Verdana;
+}
+
+.tabelaHorario thead{
+    background-color:#ACABAB   
+}
+.tabelaHorario tbody{
+    background-color:#AFC1D0;
+}
+.tabelaHorario{
+    font-family: Arial;
+    color: white;   
+}
+
+.mapinha{
+  width:500px ;
+  height: 300px;
+  left: 57%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+label{
+    width:100px;
+    text-align: left;
+    display: inline-block;
+    color: #def0ff;
+    
+}
+input{
+    border: 2px solid #ACABAB;
+    border-radius: 30px;
+    
+}
+textarea{
+    border: 2px solid #ACABAB;
+    border-radius: 10px;
+    
+}
+
+.buttonform{
+    border: 3px solid #AFC1D0;
+    border-radius: 30px;
+}
+
+.linktexto{
+    color: white;
+}
+.linktexto2{
+    color: #def0ff;
+}
+
+blockquote{
+    font-size: 20px;
+    color: #9ee0ff;
+    position: absolute;
+    left: 22%;
+    font: bold;
+}
+    
